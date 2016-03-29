@@ -222,5 +222,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # android core stuff
 $(call inherit-product, frameworks/native/build/tablet-dalvik-heap.mk)
-$(call inherit-product, build/target/product/full_base.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
