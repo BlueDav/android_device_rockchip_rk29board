@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
+# $(call inherit-product, vendor/cm/config/gsm.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/rockchip/rk29board/device.mk)
